@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  @apply bg-gray;
+}
+.proficiencies {
+  p {
+    @apply text-tertiary text-[17px] font-normal;
+  }
+}
+.proj-item {
+  .tech {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (max-width: 1920px) {
+  .proj {
+    @apply w-[90%] m-auto;
+  }
+}
+@media (max-width: 1700px) {
+  .proj {
+    @apply w-[100%] m-auto;
+  }
+}
+@media (max-width: 1515px) {
+  .proj-item {
+    @apply w-[1000px] m-auto my-4;
+    .image {
+      @apply h-[500px];
+    }
+    .tech {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .single-proj {
+    @apply block;
+    .image {
+      @apply my-5;
+    }
+    .tech {
+      @apply w-[100%];
+    }
+  }
+}
+@media (max-width: 1260px) {
+  .proj-item {
+    @apply w-[100%] m-auto my-4;
+    .image {
+      @apply h-[500px];
+    }
+  }
+}
+@media (max-width: 1110px) {
+  .proj-item {
+    @apply w-[800px] m-auto my-4;
+    .image {
+      @apply h-[400px];
+    }
+    .tech {
+      width: 700px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+@media (max-width: 850px) {
+  .proj-item {
+    @apply w-[500px] m-auto my-4;
+    .image {
+      @apply h-[250px];
+    }
+    .tech {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+@media (max-width: 682px) {
+  .single {
+    @apply w-[90%] m-auto;
+  }
+  .single-proj {
+    .image {
+      @apply w-[100%];
+    }
+  }
+}
+@media (max-width: 515px) {
+  .proj-item {
+    @apply w-[400px] m-auto my-4;
+    .image {
+      @apply h-[200px];
+    }
+  }
+}
+@media (max-width: 410px) {
+  .proj-item {
+    @apply w-[300px] m-auto my-4;
+    .image {
+      @apply h-[150px];
+    }
+  }
+  .more {
+    @apply text-[14px];
+  }
+  .single-proj {
+    .tech {
+      @apply text-[15px];
+    }
+  }
+  .desc {
+    @apply mb-10 text-[14px];
+  }
+  .back {
+    @apply my-4;
+  }
+  .cv,
+  .continuous,
+  .core,
+  .hard-skills,
+  .experience,
+  .education,
+  .languages {
+    @apply text-[20px];
+  }
+}
+@media (max-width: 680px) {
+  .main {
+    @apply w-[100%];
+  }
+  .header {
+    @apply w-[90%];
+  }
+  .p {
+    @apply w-[100%];
+  }
+}
+@media (max-width: 540px) {
+  .proficiencies {
+    li {
+      @apply w-[100%];
+    }
+  }
+  .project {
+    li {
+      @apply w-[100%];
+    }
+  }
+  .header__items {
+    @apply block;
+    .links {
+      @apply mt-4;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .role {
+    @apply text-[20px];
+  }
+  li {
+    @apply text-[14px];
+  }
+  .proficiencies {
+    li {
+      p {
+        @apply text-[14px];
+      }
+    }
+  }
+}
