@@ -95,32 +95,107 @@ const Skills = () => {
             </p>
             <div className="px-5">
               <li className="text-[15px] tracking-normal text-grayText font-medium">
-                HTML5
+                JavaScript
               </li>
               <li className="text-[15px] tracking-normal text-grayText font-medium">
-                CSS3, SCSS, SASS, LESS, Tailwind CSS, MUI
-              </li>
-              <li className="text-[15px] tracking-normal text-grayText font-medium">
-                JavaScript, TypeScript
-              </li>
-              <li className="text-[15px] tracking-normal text-grayText font-medium">
-                Git
-              </li>
-              <li className="text-[15px] tracking-normal text-grayText font-medium">
-                Firebase
+                TypeScript
               </li>
               <li className="text-[15px] tracking-normal text-grayText font-medium">
                 React
               </li>
               <li className="text-[15px] tracking-normal text-grayText font-medium">
-                Redux, Redux-Toolkit, Redux Thunk
-              </li>
-              <li className="text-[15px] tracking-normal text-grayText font-medium">
                 Next JS
               </li>
               <li className="text-[15px] tracking-normal text-grayText font-medium">
-                React-Router-Dom, React-Hook-Form, React-Redux, axios,
-                framer-motion, Carousel, react-parallax-tilt, npm
+                Git
+                <nav className="ml-4 mb-1">
+                  <ul className="list-disc">
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      GitHub
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      GitLab
+                    </li>
+                  </ul>
+                </nav>
+              </li>
+              <li className="text-[15px] tracking-normal text-grayText font-medium">
+                Rest-api
+              </li>
+              <li className="text-[15px] tracking-normal text-grayText font-medium">
+                GraphQl
+              </li>
+              <li className="text-[15px] tracking-normal text-grayText font-medium">
+                Firebase
+              </li>
+              <li className="text-[15px] tracking-normal text-grayText font-medium">
+                Redux
+                <nav className="ml-4 mb-1">
+                  <ul className="list-disc">
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      Redux-Toolkit
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      Redux Thunk
+                    </li>
+                  </ul>
+                </nav>
+              </li>
+              <li className="text-[15px] tracking-normal text-grayText font-medium">
+                HTML5
+              </li>
+              <li className="text-[15px] tracking-normal text-grayText font-medium">
+                CSS3
+                <nav className="ml-4 mb-1">
+                  <ul className="list-disc">
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      SCSS
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      SASS
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      LESS
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      Tailwind CSS
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      MUI
+                    </li>
+                  </ul>
+                </nav>
+              </li>
+              <li className="text-[15px] tracking-normal text-grayText font-medium">
+                Libraries:
+                <nav className="ml-4 mb-2">
+                  <ul className="list-disc">
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      React-Router-Dom
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      React-Hook-Form
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      React-Redux
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      Axios
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      framer-motion
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      Carousel
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      React-parallax-tilt
+                    </li>
+                    <li className="text-[15px] tracking-normal text-black font-medium">
+                      Npm
+                    </li>
+                  </ul>
+                </nav>
               </li>
             </div>
           </div>
