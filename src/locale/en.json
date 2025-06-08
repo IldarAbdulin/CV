@@ -1,0 +1,89 @@
+{
+  "introduction": {
+    "head": {
+      "title": "👋 Introduction"
+    },
+    "description": "Hello! I am a seasoned Frontend Developer with 1 year of commercial experience specializing in web application development. My technical prowess in React and TypeScript forms the foundation of my development expertise."
+  },
+  "experience": {
+    "head": {
+      "title": "🧑‍💻 Work Experience"
+    },
+    "booster": "May 2024 - Present",
+    "projectName": "🏢 Project Name",
+    "tech": "💻 Tech Stack",
+    "build": "Build tool",
+    "stack": "Main stack",
+    "api": "API",
+    "UI": "UI libraries",
+    "tracking": "Task tracking & communication",
+    "utilities": "Utilities",
+    "utilitiesOthers": "and others",
+    "sewing": {
+      "name": "Booster Sewing",
+      "about": {
+        "project": "📝 About the Project",
+        "description": "Booster Sewing is a web platform developed to automate processes in sewing workshops across Kyrgyzstan. The project supports multiple user roles with access control management.",
+        "include": "Key features include",
+        "model": "Creating and editing product models",
+        "generating": "Generating orders based on those models",
+        "mobile": "Synchronization with a mobile app where employees update order progress across stages (procurement, cutting, sewing, etc.)",
+        "status": "Real-time order status updates for managers",
+        "features": "Additional features",
+        "statistics": "A statistics page displaying data on stock, cutting, sewing, and shipping with date filters",
+        "warehouse": "A raw materials warehouse with inventory management capabilities"
+      },
+      "responsibilities": {
+        "title": "✅ Key Responsibilities",
+        "authentication": "Implemented authentication via phone number, username, and password",
+        "models": "Developed a complex page for creating and editing models with full business logic, including handling raw materials, colors, comments, and photos",
+        "kanban": "Built a Kanban board for real-time order tracking. Visualized the production process split into stages: “Procurement → Warehouse Supervisor → Cutting → Production Director → Quality Control Department → Packaging → Finished Products” Each order moves between columns automatically depending on employee actions. For example, upon confirming a purchase, the order automatically moved to the next stage. This enabled users to track each order’s current stage, responsible personnel, and improved interdepartmental communication in real time.",
+        "employees": "Developed an employee management interface and access control system. Implemented functionality for adding new employees via a modal form with fields: Full Name, phone number, email, country, city, and home address. After registration, users could:",
+        "roles": "Assign one or more roles",
+        "system": "Grant system access rights",
+        "optimized": "Refactored and optimized legacy code: improved readability, sped up page loading and queries, and occasionally performed code reviews."
+      }
+    },
+    "stock": {
+      "name": "Booster Stock",
+      "about": {
+        "project": "📝 Technical Implementation",
+        "description": "Booster Stock is a system for inventory management and tracking goods movement in a warehouse.",
+        "frontend": "I was the sole Frontend Developer on the project and implemented all key modules from scratch.",
+        "sso": "Set up SSO-based authentication and developed a full-fledged role-based access control system.",
+        "roles": "Roles had specific limitations: for example, the “Finished Product” role could accept shipments, report surpluses and shortages, and the results were automatically forwarded to the warehouse.",
+        "info": "I wrote structured code, created reusable components and custom hooks, and ensured the architecture was scalable and easy to read.",
+        "tasks": "Other responsibilities were similar to those in the Sewing project.",
+        "achievements": {
+          "title": "🏆 Personal Achievements",
+          "optimize": "Improved component optimization skills, resulting in faster rendering and better application performance.",
+          "cleanCode": "Consistently delivered clean and maintainable code, making collaboration easier and reducing bugs.",
+          "communication": "Improved communication and teamwork.",
+          "beforehand": "Always analyze the design beforehand to identify patterns and plan reusable components in advance."
+        }
+      }
+    }
+  },
+  "learning": {
+    "title": "🤝 Continuous Learning and Collaboration",
+    "description": "I am always striving for self-improvement and enhancement of my hard skills, so I make it a point to learn new technologies and tools as they emerge. I believe in the power of teamwork and am always ready to share my knowledge and experience with other developers. Together, we can create maintainable, high-quality, and efficient code that aligns with our team’s objectives."
+  },
+  "skills": {
+    "title": "🎯 Hard Skills"
+  },
+  "languages": {
+    "title": "🗣️ Languages",
+    "en": "English",
+    "enLvl": "B1",
+    "ru": "Russian",
+    "ruLvl": "C2"
+  },
+  "education": {
+    "title": "👩🏼‍🎓 Education",
+    "frontend": "Frontend Developer",
+    "time": "2023 Aug - 2023 Dec",
+    "ksla": "KSLA",
+    "kslaFull": "Kyrgyz State Law Academy",
+    "kslaTime": "2021 Sep - 2022 Dec “Dropped out”"
+  }
+}
